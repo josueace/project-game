@@ -1,0 +1,52 @@
+body {
+  padding: 0;
+  text-align: center;
+}
+
+canvas {
+  border: 1px solid black;
+}
+
+
+.opa{
+ opacity:0.5;
+}
+
+.logo-img {
+  width: 350px;
+}
+
+
+.wrapper {
+    position: relative;
+    width: 640px;
+    height: 640px;
+}
+
+.wrapper canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.flex-container {
+  display: flex;
+  margin-right:auto;
+   margin-left:auto;
+    margin-top:40px;
+  width:640px;
+  height:640px;
+  
+   
+  justify-content:center;
+}
+
+#info {
+background-image:url("./images/back1.jpg");	
+width:640px;
+background-repeat:round;
+height:640px;
+
+}
+
